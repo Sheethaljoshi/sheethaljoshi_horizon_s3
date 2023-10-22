@@ -31,7 +31,7 @@ Output:4.5
 
 6. The program will start, and you'll be prompted to input numbers. You can type "stop" to exit the program or "restart" to reset the ongoing average to zero.
 
-7. To calculate the ongoing average, input valid numbers. The program will display the current average as you go.
+7. To calculate the ongoing average, input valid, non-repeating numbers. The program will display the current average as you go.
 
 8. The program will terminate with a message when you decide to stop it.
 
@@ -42,7 +42,7 @@ The program initializes two variables, `count` and `tot`, to keep track of the n
 - Input "stop" to exit the program.
 - Input "restart" to reset the ongoing average to zero.
 - Input valid numbers to calculate and display the ongoing average.
-- For invalid input, the program displays an error message and prompts for another input.
+- For invalid input, the program displays the corresponding messages and prompts for another input.
 
 Remember to type your inputs exactly as shown (case-insensitive) for the program to recognize them.
 
