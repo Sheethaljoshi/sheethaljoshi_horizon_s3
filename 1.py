@@ -3,11 +3,13 @@ count = 0
 tot = 0
 collection = set()
 
+print("Enter a number to find ongoing average ( type 'stop' to  quit the program or 'restart' to find new average)!")
+
 #This starts an infinite loop to repeatedly get the users input
 while True: 
     
     #Ask the user to input a number, stop the program, or reset the average.
-    a=input("Enter a number to find ongoing average ( type 'stop' to  quit the program or 'restart' to find new average): ")
+    a=input("Input: ")
     
     #Check if the user wants to stop the program - the loop is terminated if condition for loop to break is satisfied.
     if a.lower() == "stop":
@@ -31,9 +33,9 @@ while True:
             tot += a 
             average=tot/count
             collection.add(a)
-            print("Current average: ", average)
+            print("Output: ", average)
         else:
-            print("Repeating numbers are not allowed")
+            print("Output: ", average)
             continue
         
     #If the input is not a valid number, displays an error message.
