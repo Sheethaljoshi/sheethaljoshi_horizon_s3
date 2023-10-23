@@ -20,4 +20,4 @@
 
 4. Navigate to the directory where you've stored the program files using the `cd` command.
 
-5. Compile the program by entering the following command: g++ particle_motion.cpp -o particle_motion
+5. Compile the program 
